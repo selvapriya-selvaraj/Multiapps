@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Orders</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #11998e, #38ef7d);
+            min-height: 100vh;
+        }
+
+        .header {
+            text-align: center;
+            padding: 50px 20px 20px;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 18px;
+        }
+
+        .orders {
+            width: 90%;
+            max-width: 900px;
+            margin: 30px auto;
+        }
+
+        .order-card {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .order-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .order-top h2 {
+            margin: 0;
+            color: #11998e;
+        }
+
+        .status {
+            background: #d4f8e8;
+            color: #11998e;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .product {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        .details {
+            color: #555;
+            line-height: 1.8;
+        }
+
+        .track {
+            margin-top: 15px;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 20px;
+            background: #11998e;
+            color: white;
+            font-size: 15px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="header">
+
+        <h1>📦 My Orders</h1>
+
+        <p>Track and manage your recent orders</p>
+
+    </div>
+
+    <div class="orders">
+
+        <div class="order-card">
+
+            <div class="order-top">
+
+                <h2>Order #1001</h2>
+
+                <span class="status">
+                    ✓ Delivered
+                </span>
+
+            </div>
+
+            <div class="product">
+                💻 Laptop
+            </div>
+
+            <div class="details">
+
+                <p><b>Price:</b> ₹45,000</p>
+
+                <p><b>Order Date:</b> 06 October 2026</p>
+
+                <p><b>Delivery:</b> Completed</p>
+
+            </div>
+
+            <button class="track">
+                View Order
+            </button>
+
+        </div>
+
+        <div class="order-card">
+
+            <div class="order-top">
+
+                <h2>Order #1002</h2>
+
+                <span class="status">
+                    🚚 Shipped
+                </span>
+
+            </div>
+
+            <div class="product">
+                🎧 Wireless Headphones
+            </div>
+
+            <div class="details">
+
+                <p><b>Price:</b> ₹2,500</p>
+
+                <p><b>Order Date:</b> 05 October 2026</p>
+
+                <p><b>Delivery:</b> Expected Soon</p>
+
+            </div>
+
+            <button class="track">
+                Track Order
+            </button>
+
+        </div>
+
+        <div class="order-card">
+
+            <div class="order-top">
+
+                <h2>Order #1003</h2>
+
+                <span class="status">
+                    📦 Processing
+                </span>
+
+            </div>
+
+            <div class="product">
+                📱 Smartphone
+            </div>
+
+            <div class="details">
+
+                <p><b>Price:</b> ₹25,000</p>
+
+                <p><b>Order Date:</b> 04 October 2026</p>
+
+                <p><b>Delivery:</b> Processing</p>
+
+            </div>
+
+            <button class="track">
+                View Details
+            </button>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

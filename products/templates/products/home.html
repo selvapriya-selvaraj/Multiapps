@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: linear-gradient(135deg, #ff9966, #ff5e62);
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        h1 {
+            color: white;
+            padding-top: 50px;
+            font-size: 45px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+
+        .card {
+            width: 220px;
+            background: white;
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+        }
+
+        .icon {
+            font-size: 60px;
+        }
+
+        .card h2 {
+            color: #ff5e62;
+        }
+
+        .price {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        button {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 20px;
+            background: #ff5e62;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>🛍️ Our Products</h1>
+
+    <div class="container">
+
+        <div class="card">
+            <div class="icon">💻</div>
+            <h2>Laptop</h2>
+            <p>Powerful and modern laptop.</p>
+            <p class="price">₹45,000</p>
+            <button>View Product</button>
+        </div>
+
+        <div class="card">
+            <div class="icon">📱</div>
+            <h2>Smartphone</h2>
+            <p>Latest smartphone technology.</p>
+            <p class="price">₹25,000</p>
+            <button>View Product</button>
+        </div>
+
+        <div class="card">
+            <div class="icon">🎧</div>
+            <h2>Headphones</h2>
+            <p>High quality wireless sound.</p>
+            <p class="price">₹2,500</p>
+            <button>View Product</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
